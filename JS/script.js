@@ -1,0 +1,1 @@
+alert("just to confirm that js is linked");
