@@ -1,0 +1,10 @@
+mkdir training
+cd training
+git init 
+git remote add origin https://github.com/ankitjbp/php_training.git
+git clone https://github.com/ankitjbp/php_training.git
+git push --set-upstream origin main
+git add . 
+git commit -m "comments"
+git push origin 
+
