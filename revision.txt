@@ -1,0 +1,45 @@
+1) Database 
+2) Table 
+3) Column 
+4) Values 
+5) Column => data type 
+6) Primary key 
+7) create table 
+8) insert data 
+9) alter table 
+10) select 
+11) JOIN 
+
+
+
+Trainee - 
+
+name, contact_number, display, address, qualification, 
+subject
+php, networking, docker, devop, Linux administration, II Infra, security 
+ 
+
+subject 
+
+
+INNER JOIN - Common part 
+LEFT JOIN - 
+RIGHT JOIN 
+CROSS JOIN 
+
+
+
+Maths, computer application, physics 
+Maths, computer application, geology 
+
+
+
+
+
+
+
+
+
+
+ 
+
