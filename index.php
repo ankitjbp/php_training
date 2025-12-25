@@ -16,7 +16,12 @@ ini_set('display_errors', 'On');
   $connection= mysqli_connect($host,$username,$password,$database_name); 
   // echo "this page is working_<br/>"; 
   if($connection){
-    
+
+
+// i want to add this comment    
+
+
+
     // => echo "connection is established"; 
     }else { echo "something went wrong "; } 
  
