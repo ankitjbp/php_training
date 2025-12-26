@@ -36,6 +36,29 @@ Maths, computer application, geology
 
 
 
+Select name,subject_name
+from 
+trainee  
+left join 
+trainee_subject
+on 
+trainee.id=trainee_subject.trainee_id
+left join 
+subject 
+on  
+subject.id=trainee_subject.subject_id
+where subject_name is not null
+;
+
+create table trainee_test(
+id integer auto_increment primary key,
+trainee_id integer,
+subject_id integer, 
+foreign key(trainee_id) references trainee(id)
+);
+
+
+
 
 
 
